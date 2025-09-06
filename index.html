@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeardBear（ひげくま）- 高知の山奥から</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-mountain"></i>
+                    <h1>BeardBear</h1>
+                    <span class="subtitle">ひげくま</span>
+                </div>
+                <nav class="nav">
+                    <a href="#about">自己紹介</a>
+                    <a href="#life">田舎暮らし</a>
+                    <a href="#posts">最新情報</a>
+                    <a href="#contact">お問い合わせ</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- メインビジュアル -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>高知の山奥から、<br>自然と共に生きる</h2>
+                <p>32歳、2児の父として、都会の喧騒を離れ、<br>豊かな自然に囲まれた暮らしを選びました。</p>
+                <div class="hero-icons">
+                    <i class="fas fa-tree"></i>
+                    <i class="fas fa-home"></i>
+                    <i class="fas fa-heart"></i>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- 自己紹介セクション -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-user"></i>
+                自己紹介
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>BeardBear（ひげくま）</h3>
+                    <p class="intro">
+                        こんにちは！高知県の山奥で暮らしている32歳の父親です。
+                        2人の子どもたちと妻と一緒に、自然豊かな環境で毎日を過ごしています。
+                    </p>
+                    <div class="profile-details">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>高知県の山奥</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <span>32歳</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-users"></i>
+                            <span>2児の父</span>
+                        </div>
+                    </div>
+                    <p class="description">
+                        都会での忙しい生活から一転、山間部での穏やかな暮らしを選択しました。
+                        子どもたちには自然の中で伸び伸びと育ってほしいという想いから、
+                        この地に移住を決意。毎日、四季の移ろいを感じながら、
+                        家族との時間を大切に過ごしています。
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-user-circle"></i>
+                        <p>BeardBear</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 田舎暮らしセクション -->
+    <section id="life" class="rural-life">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-seedling"></i>
+                田舎暮らしの魅力
+            </h2>
+            <div class="life-grid">
+                <div class="life-item">
+                    <i class="fas fa-leaf"></i>
+                    <h3>豊かな自然</h3>
+                    <p>四季折々の美しい景色に囲まれ、新鮮な空気を毎日味わえます。</p>
+                </div>
+                <div class="life-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>ゆったりとした時間</h3>
+                    <p>都会の慌ただしさから解放され、家族との時間を大切にできます。</p>
+                </div>
+                <div class="life-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>温かいコミュニティ</h3>
+                    <p>地域の方々との繋がりが深く、助け合いの精神が根付いています。</p>
+                </div>
+                <div class="life-item">
+                    <i class="fas fa-carrot"></i>
+                    <h3>自給自足の生活</h3>
+                    <p>家庭菜園で野菜を育て、自然の恵みを直接感じることができます。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Xポスト表示セクション -->
+    <section id="posts" class="social-posts">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fab fa-x-twitter"></i>
+                最新の投稿
+            </h2>
+            <div class="posts-container">
+                <div id="twitter-feed" class="twitter-feed">
+                    <!-- Xの投稿がここに表示されます -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>投稿を読み込み中...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- お問い合わせセクション -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-envelope"></i>
+                お問い合わせ
+            </h2>
+            <div class="contact-content">
+                <p>田舎暮らしについてのご質問や、お仕事のご相談など、お気軽にお声がけください。</p>
+                <div class="contact-links">
+                    <a href="https://x.com/VoxelMotors" target="_blank" class="contact-link">
+                        <i class="fab fa-x-twitter"></i>
+                        X (Twitter)
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 BeardBear（ひげくま）. All rights reserved.</p>
+            <p>高知の山奥から、自然と共に。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
